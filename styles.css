@@ -20,6 +20,10 @@ body {
 /* Container principal do relógio */
 .relogio-container {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 600px;
     gap: 25px;
     padding: 20px;
     border-radius: 20px;
@@ -38,6 +42,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     /* Efeito Glassmorphism (Imitação de vidro) */
     background: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(15px);
@@ -45,7 +50,6 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Efeito interativo ao passar o mouse por cima */
