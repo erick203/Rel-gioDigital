@@ -1,4 +1,5 @@
-# 📝 Descrição
+# 🕒 Relógio Digital
+## 📝 Descrição
 
 Este é um projeto de um **Relógio Digital** moderno e elegante, desenvolvido com foco em estilização avançada e manipulação do DOM em tempo real. A interface conta com um design *Premium* utilizando o efeito **Glassmorphism** (imitação de vidro fosco), iluminação neon sutil (glow effect) e animações fluidas de interatividade ao passar o mouse.
 
